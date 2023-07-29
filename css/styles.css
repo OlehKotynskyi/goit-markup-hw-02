@@ -128,6 +128,11 @@ body {
    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
+.business-button:hover,
+.business-button:focus {
+   background-color: var(--ocean);
+}
+
 /*================description section=================== */
 
 .description-section {}
