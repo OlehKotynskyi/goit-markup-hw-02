@@ -101,6 +101,13 @@ body {
    letter-spacing: 0.32px;
 }
 
+.header-list-linck:hover,
+.header-list-linck:focus,
+.address-list-linck:hover,
+.address-list-linck:focus {
+   color: var(--ocean);
+}
+
 /*================ business section and main =================== */
 
 .main-section {}
