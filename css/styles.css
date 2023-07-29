@@ -17,7 +17,6 @@
 }
 
 .sub-titel {
-   letter-spacing: 0.32px;
    font-weight: 700;
    line-height: 1.11;
    letter-spacing: 0.72px;
@@ -30,7 +29,7 @@
 }
 
 .linck {
-   color: inherit;
+   color: currentColor;
    text-decoration: none;
 }
 
@@ -38,9 +37,7 @@
    cursor: pointer;
 }
 
-.text {
-   letter-spacing: 0.32px;
-}
+.text {}
 
 .heading {
    font-style: var(--font-size-min-titel);
@@ -69,6 +66,7 @@ body {
    color: var(--slate);
    background-color: var(--white);
    line-height: var(--line-height-standart);
+   letter-spacing: 0.32px;
 }
 
 /*================ header section=================== */
@@ -87,7 +85,6 @@ body {
 
 .header-list-linck {
    font-weight: 500;
-   letter-spacing: 0.32px;
    color: var(--navyblue);
 }
 
@@ -97,9 +94,7 @@ body {
 
 .address-list-item {}
 
-.address-list-linck {
-   letter-spacing: 0.32px;
-}
+.address-list-linck {}
 
 .header-list-linck:hover,
 .header-list-linck:focus,
